@@ -1,0 +1,34 @@
+{
+  "name": "smk-attend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SMK Attend — Portal Presensi & Akademik Siswa, Guru, dan Admin SMK berbasis QR Code",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "lucide-react": "^0.511.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.1.8",
+    "@testing-library/react": "^16.3.3",
+    "@vitejs/plugin-react": "^6.0.0",
+    "eslint": "^10.0.0",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "eslint-plugin-react-refresh": "^0.5.0",
+    "globals": "^17.0.0",
+    "jsdom": "^29.1.1",
+    "tailwindcss": "^4.1.8",
+    "vitest": "^3.1.4"
+  }
+}
